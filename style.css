@@ -92,15 +92,21 @@ nav ul li.drop {
 .cover {
     position: relative;
     top: 0px;
-    height: 600px;
+    height: 700px;
     z-index: 0;
 }
 
-.cover img {
+.cover video {
+    filter: brightness(20%);
+    /* width: 100%; */
+    /* height: 600px; */
+}
+
+/* .cover img {
     filter: brightness(20%);
     width: 100%;
     height: 600px;
-}
+} */
 
 .cover div {
     position: relative;
