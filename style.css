@@ -110,7 +110,7 @@ nav ul li.drop {
 
 .cover div {
     position: relative;
-    top: -500px;
+    top: -600px;
     color: white;
     text-align: center;
 }
@@ -161,7 +161,7 @@ nav ul li.drop {
     position: relative;
     text-align: center;
     background-color: #04a4f427;
-    padding: 80px 0px;
+    padding: 100px 0px;
 }
 
 .aboutus {
@@ -378,7 +378,7 @@ footer {
     /* ================================= Defaults =========================== */
 
     section>h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     /* ================================= Nav Bar =========================== */
@@ -388,7 +388,6 @@ footer {
         display: block;
         width: 100%;
         position: fixed;
-        width: 100%;
     }
 
     nav>a {
@@ -422,7 +421,18 @@ footer {
     }
 
     /* ================================= Cover page =========================== */
-    .cover img {
+    /* .cover img {
+        width: 100%;
+        height: inherit;
+    } */
+
+    .cover {
+        position: relative;
+        top: -160px;
+        height: 700px;
+    }
+
+    .cover video {
         width: 100%;
         height: inherit;
     }
@@ -432,23 +442,26 @@ footer {
     }
 
     .cover div h1 {
-        font-size: 3rem;
+        font-size: 2rem;
+        padding-bottom: 10px;
     }
 
     .cover div p {
         font-size: 1rem;
+        padding-bottom: 10px;
     }
 
     .cover div button {
         padding: 10px;
         margin: 10px;
         width: 100px;
+        font-size: medium;
     }
 
     /* ================================= About Us =========================== */
 
     #about {
-        top: 0px;
+        top: -405px;
         padding: 100px 0px 20px 0px;
     }
 
@@ -472,7 +485,7 @@ footer {
 
     /* ================================= Courses =========================== */
     .courses {
-        top: 0px;
+        top: -405px;
         z-index: 0;
         padding-top: 100px;
 
@@ -533,7 +546,7 @@ footer {
         padding: 10px 20px 0px 20px;
         align-items: center;
         text-align: center;
-        top: 0px;
+        top: -405px;
     }
 
     footer p {
