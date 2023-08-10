@@ -1,3 +1,5 @@
+
+
 let toggler = document.getElementById('click');
 toggler.addEventListener('click', function () {
     let dropDownMenu = document.getElementById('click')
@@ -7,4 +9,3 @@ toggler.addEventListener('click', function () {
         dropDownMenu.className = 'topnav';
     }
 });
-
