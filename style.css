@@ -219,6 +219,17 @@ nav ul li.drop {
     box-shadow: 0px 3px 5px 0px gray;
 }
 
+.courses .course div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    margin-top: -5px;
+    border-radius: 0px 0px 10px 10px;
+}
+
 .courses .course h3 {
     padding: 10px 0px;
 }
@@ -531,11 +542,32 @@ footer {
 
     .courses .course div {
         width: 40%;
-        margin: 10px 0px;
+        margin: 20px 0px;
         background-color: white;
         border-radius: 10px;
         box-shadow: 0px 3px 5px 0px gray;
+        padding-bottom: 30px;
+    }
+
+    /* .courses .course div div {
+        width: 100%;
+        height: 48%; */
+    /* margin-bottom: 0px; */
+    /* border-radius: 0px 0px 10px 10px;
+        padding-top: 10px;
         padding-bottom: 0px;
+        margin: auto;
+    } */
+
+    .courses .course div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 48%;
+        border-radius: 0px 0px 10px 10px;
+        padding-top: 10px;
     }
 
     .courses .course h3 {
@@ -756,7 +788,7 @@ footer {
 
     .courses .course div {
         width: 90%;
-        margin: 10px 0px;
+        margin: 30px 0px;
         background-color: white;
         border-radius: 10px;
         box-shadow: 0px 3px 5px 0px gray;
@@ -979,7 +1011,7 @@ footer {
 
     .courses .course div {
         width: 90%;
-        margin: 10px 0px;
+        margin: 20px 0px;
         background-color: white;
         border-radius: 10px;
         box-shadow: 0px 3px 5px 0px gray;
@@ -1157,11 +1189,22 @@ footer {
 
     .courses .course div {
         width: 90%;
-        margin: 5px 0px;
+        margin: 10px 0px;
         background-color: white;
         border-radius: 10px;
         box-shadow: 0px 3px 5px 0px gray;
         padding-bottom: 0px;
+    }
+
+    .courses .course div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 55%;
+        border-radius: 0px 0px 10px 10px;
+        padding-top: 10px;
     }
 
     .courses .course h3 {
