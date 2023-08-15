@@ -582,6 +582,17 @@ footer {
         border-radius: 10px 10px 0px 0px;
     }
 
+
+    /* ================================= Curriculum =========================== */
+
+    #curriculum p {
+        padding: 0px 0px;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+
+
     /* ================================= Contact =========================== */
     #contact {
         background-color: #04a4f427;
@@ -613,9 +624,6 @@ footer {
     #contact .course i {
         font-size: 40px;
     }
-
-
-
 
     /* ================================= JavaScript =========================== */
 
