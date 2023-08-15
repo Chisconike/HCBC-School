@@ -165,21 +165,20 @@ nav ul li.drop {
 }
 
 #about .aboutus .about-caption {
-    width: 30%;
     background-color: white;
-    padding: 80px 20px;
+    padding: 10px 20px;
     border-radius: 10px;
     box-shadow: 0px 5px 5px 0px gray;
     margin-bottom: 20px;
 }
 
 #about .aboutus div:nth-of-type(1) {
-    width: 40%;
+    width: 45%;
     padding: 0px;
 }
 
 #about .aboutus div:nth-of-type(2) {
-    width: 40%;
+    width: 45%;
 }
 
 #about .aboutus div img {
@@ -252,6 +251,8 @@ nav ul li.drop {
 /* ================================= Curriculum =========================== */
 #curriculum .course div h2 {
     padding-bottom: 10px;
+    width: 90%;
+    margin: auto;
 }
 
 #curriculum .course div {
@@ -494,14 +495,13 @@ footer {
     }
 
     #about .aboutus div:nth-of-type(1) {
-        width: 45%;
+        width: 30%;
         padding: 0px;
-
     }
 
     #about .aboutus div:nth-of-type(2) {
-        width: 45%;
-        padding: 20px 20px;
+        width: 60%;
+        padding: 10px 20px;
     }
 
     #about .aboutus div img {
@@ -625,13 +625,13 @@ footer {
 
     /* ================================= JavaScript =========================== */
 
-    ul.topnav.responsive li.drop {
+    ul.topnav.toggler li.drop {
         position: absolute;
         top: 0px;
         right: 0px;
     }
 
-    ul.topnav.responsive {
+    ul.topnav.toggler {
         position: relative;
         display: flex;
         flex-direction: column;
@@ -641,19 +641,19 @@ footer {
 
     }
 
-    ul.topnav.responsive li {
+    ul.topnav.toggler li {
         display: flex;
         justify-content: center;
         width: 100%;
         background-color: #00000022;
     }
 
-    ul.topnav.responsive li:last-child {
+    ul.topnav.toggler li:last-child {
         background-color: transparent;
         justify-content: flex-end;
     }
 
-    ul.topnav.responsive li a {
+    ul.topnav.toggler li a {
         display: block;
         text-align: center;
     }
@@ -750,7 +750,7 @@ footer {
 
     #about .aboutus div:nth-of-type(2) {
         width: 90%;
-        padding: 20px 20px;
+        padding: 10px 20px;
     }
 
     #about .aboutus div img {
@@ -989,7 +989,7 @@ footer {
 
     #about .aboutus div:nth-of-type(2) {
         width: 90%;
-        padding: 20px 20px;
+        padding: 10px 20px;
     }
 
     #about .aboutus div p {
@@ -1166,7 +1166,7 @@ footer {
 
     #about .aboutus div:nth-of-type(2) {
         width: 90%;
-        padding: 5px 20px;
+        padding: 5px 10px;
     }
 
     #about .aboutus div h3 {
