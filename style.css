@@ -371,10 +371,15 @@ footer {
     z-index: 0;
 }
 
-
-
-
 /* ================================= Media Query =========================== */
+@media only screen and (max-width: 2000px) {
+    #home .container video {
+        filter: brightness(20%);
+        width: 100vw;
+    }
+}
+
+
 
 @media only screen and (max-width: 1241px) {
     /* ================================= Header/Nav =========================== */
