@@ -8,3 +8,4 @@ toggler.addEventListener('click', function () {
         toggler.className = 'topnav';
     }
 });
+
