@@ -54,6 +54,7 @@ nav a span:nth-of-type(2) {
 nav ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 50%;
 }
 
@@ -393,7 +394,7 @@ footer {
 
     nav {
         display: block;
-        padding: 10px 10px 0px 10px;
+        padding: 10px 10px 5px 10px;
         background-color: #04a4f4;
         overflow: hidden;
     }
@@ -1150,7 +1151,6 @@ footer {
         margin: 0px 4px;
         font-size: 5px;
         flex-shrink: inherit;
-
     }
 
 
