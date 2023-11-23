@@ -329,7 +329,7 @@ nav ul li.drop {
     border-radius: 10px;
 }
 
-#map .course form p {
+/* #map .course form p {
     font-size: 40px;
     padding-top: 20px;
 }
@@ -356,7 +356,7 @@ nav ul li.drop {
     border: none;
     box-shadow: 0px 3px 5px 0px gray;
     width: 80%;
-}
+} */
 
 /* ================================= Footer =========================== */
 
@@ -875,7 +875,7 @@ footer {
         border-radius: 10px;
     }
 
-    #map .course form p {
+    /* #map .course form p {
         font-size: 30px;
     }
 
@@ -900,7 +900,7 @@ footer {
     #map .course div form button {
         border: none;
         box-shadow: 0px 3px 5px 0px gray;
-    }
+    } */
 
     /* ================================= Footer =========================== */
 
@@ -1084,9 +1084,9 @@ footer {
 
 
     /* ================================= Map / Form =========================== */
-    #map .course form p {
+    /* #map .course form p {
         font-size: 20px;
-    }
+    } */
 
 
 
